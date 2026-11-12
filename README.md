@@ -1,17 +1,39 @@
-# shamsi
+# ☀️ Shamsi – Solar Calculator
 
-A new Flutter project.
+## About the Project
+Shamsi is a Flutter application that helps users estimate the number of solar panels and batteries needed for their home.
 
-## Getting Started
+Users can add their electrical appliances, enter their power consumption, choose daily usage hours, and select when each appliance is used.
 
-This project is a starting point for a Flutter application.
+## Main Features
+- Add new appliances.
+- Edit appliance information.
+- Delete appliances.
+- Increase or decrease appliance quantities.
+- Select Day, Night, or Both.
+- Calculate daily and night energy consumption.
+- Estimate the required solar panels and batteries.
 
-A few resources to get you started if this is your first Flutter project:
+## Calculation Assumptions
+- One 450W solar panel produces approximately 1.8 kWh per day.
+- One 200Ah, 12V battery stores approximately 2.4 kWh.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Results are estimates and may vary depending on real conditions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+- Flutter
+- Dart
+- Visual Studio Code
+- Git and GitHub
+
+## Database
+This project does not use a database.
+
+## How to Run
+1. Install Flutter.
+2. Open the project in Visual Studio Code.
+3. Run `flutter pub get`.
+4. Run `flutter run`.
+
+## Project Name
+**Shamsi – Solar Panels and Batteries Calculator**
